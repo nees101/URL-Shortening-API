@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+</head>
+
+<body>
+  <nav>
+
+    <div class="navlinks">
+      <a href="/"><img class="logo" src="images/logo.svg" alt="logo" /></a>
+      <a href="#" class="toggle"><i class="fas fa-bars hamburger"></i></a>
+      <div class="menu-links row">
+        <div class="left-links col">
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Resources</a>
+        </div>
+        <hr class="divider"/>
+        <div class="right-links col">
+          <a href="#">Login</a>
+          <button class="CTA-1">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="row">
+      <div class="col-1">
+        <h1>More than just shorter links</h1>
+
+        <p>
+          Build your brand’s recognition and get detailed insights
+          on how your links are performing.
+        </p>
+
+        <button class="CTA-2">Get Started</button>
+      </div>
+      <div class="col-2">
+        <img src="images/illustration-working.svg" alt="working illustration" />
+      </div>
+    </div>
+    <div>
+
+    </div>
+    <div class="form">
+      <form>
+        <input class= "url"  type="text" placeholder="Shorten a link here..." value="" />
+        <input class="CTA-3 " type="submit" value="Shorten It!" />
+      </form>
+      <span id="error">
+        <em>Please add a link</em>
+      </span>
+    </div>
+     <div class="result">
+     
+    </div>
+    <div>
+
+
+    <!-- Statistics Section -->
+
+    <div class="statistics">
+      <div class="statistics-header">
+        <h2>Advanced Statistics</h2>
+        <p>
+          Track how your links are performing across the web with our
+          advanced statistics dashboard.
+        </p>
+      </div>
+      <div class="cards">
+        <hr class="line" />
+        <div class="card card-1">
+          <img src="images/icon-brand-recognition.svg" alt="brand recognition" />
+          <h3>Brand Recognition</h3>
+          <p>
+            Boost your brand recognition with each click. Generic links don’t
+            mean a thing. Branded links help instil confidence in your content.
+          </p>
+        </div>
+
+        <div class="card card-2">
+          <img src="images/icon-detailed-records.svg" alt="detailed records" />
+          <h3>Detailed Records</h3>
+          <p>
+            Gain insights into who is clicking your links. Knowing when and where
+            people engage with your content helps inform better decisions.
+          </p>
+        </div>
+
+        <div class="card card-3">
+          <img src="images/icon-fully-customizable.svg" alt="fully customizable" />
+          <h3>Fully Customizable</h3>
+          <p>
+            Improve brand awareness and content discoverability through customizable
+            links, supercharging audience engagement.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- Call to Action Section -->
+
+    <div class="CallToAction">
+      <h2>Boost your links today</h2>
+      <button class="CTA-2">Get Started</button>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-menu ">
+      <div class="row ">
+        <div class=col>
+          <a href="/"><img class="logo" src="images/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="col">
+          <p>
+            Features
+          </p>
+          <ul>
+            <li>Link Shortening</li>
+            <li>Branded Links</li>
+            <li>Analytics</li>
+          </ul>
+        </div>
+        <div class="col">
+          <p>
+            Resources
+          </p>
+          <ul>
+            <li>Blog</li>
+            <li>Developers</li>
+            <li>Support</li>
+          </ul>
+        </div>
+        <div class="col">
+          <p>
+            Company
+          </p>
+          <ul>
+            <li>About</li>
+            <li>Our Team</li>
+            <li>Careers</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="col social-icons">
+         <a href="#"><i class="fab  fa-facebook-square"></i></a>
+         <a href="#"><i class="fab  fa-twitter"></i></a>
+         <a href="#"><i class="fab  fa-pinterest"></i></a>
+         <a href="#"><i class="fab  fa-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.neethunair.com">Neethu S. Nair</a>.
+    </div>
+
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" ></script>
+</body>
+
+</html>
