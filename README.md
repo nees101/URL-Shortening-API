@@ -21,7 +21,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
-- Shorten any valid URL
+- Integrate with the shrtcode API to create shortened URLs and display them like in the designs.
 - See a list of their shortened links, even after refreshing the browser
 - Copy the shortened link to their clipboard in a single click
 - Receive an error message when the `form` is submitted if:
@@ -48,8 +48,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendMentor/@nees101](https://your-solution-url.com)
-- Live Site URL: [github/@nees101](https://your-live-site-url.com)
+- Solution URL: [frontendMentor/@nees101](https://www.frontendmentor.io/solutions/responsive-url-shortening-api-using-htmlcss-and-jquery-Ndv_5FYIxb)
+- Live Site URL: [github/@nees101](https://nees101.github.io/URL-Shortening-API/)
 
 ## My process
 
